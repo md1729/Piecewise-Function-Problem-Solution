@@ -1,0 +1,34 @@
+          Piecewise Function Problem Solution
+
+
+Declare---->Real-->x,y
+Output-->"Enter the x value:"
+Input--->x
+     |
+     |
+    x<1
+with If command;
+If true;
+with assign command;
+y=3*x-4
+
+
+    |
+    |
+ x>=1 && x<=10
+ with IF command;
+If true;
+with assign command;
+y=x+2
+    |
+    |
+x>10
+with IFcommand;
+If true;
+ with assign command;
+y=2*x+4
+
+Output--->"Function Result:"&y
+
+
+   

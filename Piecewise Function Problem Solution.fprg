@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="muhammed"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-07 05:12:53 AM"/>
+        <attribute name="created" value="bXVoYW1tZWQ7REVMTDsyMDI0LTAxLTA3OzA0OjM2OjQzIEFNOzI0MDA="/>
+        <attribute name="edited" value="bXVoYW1tZWQ7REVMTDsyMDI0LTAxLTA3OzA1OjEyOjUzIEFNOzE7MjUwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the X value:&quot;" newline="True"/>
+            <input variable="x"/>
+            <if expression="x&lt;1">
+                <then>
+                    <assign variable="y" expression="3*x-4"/>
+                </then>
+                <else>
+                    <if expression="x&gt;=1 &amp;&amp; x&lt;=10">
+                        <then>
+                            <assign variable="y" expression="x+2"/>
+                        </then>
+                        <else>
+                            <if expression="x&gt;10">
+                                <then>
+                                    <assign variable="y" expression="2*x+4"/>
+                                </then>
+                                <else/>
+                            </if>
+                            <output expression="&quot;Function Result:&quot; &amp;y" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
